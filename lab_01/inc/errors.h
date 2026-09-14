@@ -1,0 +1,16 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+typedef enum errors
+{
+    OK = 0,
+    IO_ERR,
+    EMPTY_INPUT_ERR,
+    INVALID_FORMAT_ERR,
+    BIG_INT_OVERFLOW_ERR,
+    MANTISSA_OVERFLOW_ERR,
+    EXPONENT_OVERFLOW_ERR,
+    RESULT_EXPONENT_OVERFLOW_ERR
+} error_t;
+
+#endif
