@@ -30,7 +30,7 @@ int input_big_float(big_float_t *number)
     int rc;
 
     printf("Введите действительное число:\n");
-    printf("123456789012345678901234567890 E+12345\n");
+    printf("123456789012345678901234567890E+12345\n");
     rc = read_line(stdin, str, sizeof(str));
     if (rc != OK)
         return rc;

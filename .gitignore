@@ -1,0 +1,36 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# Dependencies
+*.d
+
+# Build directories
+build/
+dist/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+compile-flags.txt
+.clang-format
+
+# OS files
+.DS_Store
+Thumbs.db
